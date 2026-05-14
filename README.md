@@ -21,9 +21,9 @@ Higher focus = faster fan = ball levitates higher.
 - IRLZ44N MOSFET
 - 1N5408 flyback diode
 - 220Ω resistor
-- 12V DC fan (80mm)
+- 80mm DC fan
 - 20–25V DC power supply
-- 3D-printed tube
+- 3D-printed nozzle
 - 2.7g ping-pong ball
 
 ---
@@ -34,7 +34,7 @@ Higher focus = faster fan = ball levitates higher.
 
 1. Install [PlatformIO](https://platformio.org/) in VS Code
 2. Open the project folder
-3. Place `main.cpp` inside the `src/` folder
+3. Place `design day.cpp` inside the `src/` folder
 4. Connect your ESP32 via USB
 5. Click the **Upload** button (arrow icon) in VS Code
 6. Wait for it to say **SUCCESS**
@@ -48,7 +48,7 @@ Higher focus = faster fan = ball levitates higher.
 pip install pyserial numpy matplotlib
 
 ```
-3. Open `final_form.py` in VS Code
+3. Open `design day.py` in VS Code
 4. Change these two lines to match your setup:
 ```
 
@@ -69,10 +69,10 @@ esp32_port = 'COM5'  # Your ESP32 USB port
 
 ## Finding Your COM Ports (Windows)
 
-- Open **Device Manager**
-- Expand **Ports (COM & LPT)**
-- MindWave will show as Bluetooth device
-- ESP32 will show as USB Serial device
+1. Open **Device Manager**
+2. Expand **Ports (COM & LPT)**
+3. MindWave will appear as a Bluetooth device
+4. ESP32 will appear as a USB Serial device
 
 ---
 
